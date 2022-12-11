@@ -13,7 +13,7 @@ public class GCDandLCM {
                 n2 = rem;
             }
             int gcd = n2;
-            int lcm = (on1 + on2) / gcd;
+            int lcm = (on1 * on2) / gcd;
             System.out.println(gcd);
             System.out.println(lcm);
         }
